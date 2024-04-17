@@ -10,7 +10,7 @@ const functionApi = 'http://localhost:7071/api/ResumeChallengeCounter';
 const getVisitCount = () => {
     let count = 30;
     fetch(functionApi).then(response => {
-        return Response.json()
+        return response.json()
     }).then (response =>{
         console.log ("Website called function API.");
         count = response.count;
