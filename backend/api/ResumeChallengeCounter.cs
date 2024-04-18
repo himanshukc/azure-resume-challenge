@@ -44,7 +44,7 @@ namespace Company.Function
             ILogger log)
 
         {
-            // Here is where the counter gets updated. Troubleshooting with backend automation
+            // Here is where the counter gets updated. Troubleshooting with backend automation. Love to troubleshoot backend.
             log.LogInformation (" C# HTTP trigger function processed a request.");
            
            //increment the count
