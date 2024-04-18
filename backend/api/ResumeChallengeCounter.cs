@@ -44,7 +44,8 @@ namespace Company.Function
             ILogger log)
 
         {
-            // Here is where the counter gets updated. Troubleshooting with backend automation. Love to troubleshoot backend.
+            // Here is where the counter gets updated. Troubleshooting with backend automation. 
+            // name are matched with backend yml and azure function
             log.LogInformation (" C# HTTP trigger function processed a request.");
            
            //increment the count
