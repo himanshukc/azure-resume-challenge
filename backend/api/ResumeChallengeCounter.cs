@@ -44,7 +44,7 @@ namespace Company.Function
             ILogger log)
 
         {
-            // Here is where the counter gets updated.
+            // Here is where the counter gets updated. Hoever the github not recognised the change.
             log.LogInformation (" C# HTTP trigger function processed a request.");
            
            //increment the count
